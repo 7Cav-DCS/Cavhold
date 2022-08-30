@@ -1,0 +1,129 @@
+dictionary = 
+{
+    ["DictKey_ActionRadioText_70"] = "",
+    ["DictKey_ActionText_35"] = "If you enjoy our server please join us on discord at: \
+https://discord.gg/7cav ",
+    ["DictKey_ActionText_43"] = "Server restart in 15 minutes. Mission state will be saved",
+    ["DictKey_ActionText_76"] = "A/A Training Zone:\
+A/A Dummy Targets despawned south of training zone.",
+    ["DictKey_ActionText_73"] = "A/A Training Zone:\
+A/A Dummy Targets spawned south of training zone, 40 nm south of HOLD WP, Angels 15",
+    ["DictKey_sortie_5"] = "",
+    ["DictKey_ActionRadioText_77"] = "Despawn A-A Dummies",
+    ["DictKey_ActionText_19"] = "",
+    ["DictKey_descriptionRedTask_2"] = "",
+    ["DictKey_ActionText_42"] = "Server restart in 5 minutes. Mission state will be saved",
+    ["DictKey_ActionText_28"] = "return false",
+    ["DictKey_ActionText_30"] = "Hi",
+    ["DictKey_descriptionText_1"] = "Welcome to the =7Cav= Tactical Realism Server\
+\
+The 7th Cavalry Gaming Regiment is currently looking for new pilots to join our ranks in DCS. We are a mix of experienced sim pilots and new players to aviation simulation. \
+\
+If this is something that interest you please sign up at:\
+7cav.us/enlist\
+\
+You can also visit our Discord at https://discord.gg/7cav with any questions or issues that you may have.\
+\
+Join us on SRS: 135.148.58.18:5018\
+\
+--------------------------------------------------------------------------------\
+RULES:\
+1.    No fratricide/team killing\
+2.    No offensive or disruptive behavior\
+3.    No taking off/landing on taxiways\
+4.    No blocking taxiways or runways\
+5.    All rearming and repairs must be done in a parking area or away from taxiways and runways\
+\
+---------------------------------------------------------------------------------\
+\
+Foothold v1.4 by Dzsekeb\
+\
+The goal is to capture all zones.\
+\
+To capture a zone, first you need to destroy all enemy forces deployed there, in order to turn the zone neutral.\
+\
+Neutral zones can be captured either by assisting friendly AI supply aircraft, which periodically spawn at friendly zones, to land at them, or airlifting one of the cargo items found in various zones.\
+\
+Friendly zones can be upgraded with extra units to improve their defense using the same mechanics as capturing.\
+\
+If a zone has a group that is missing units, a supply delivery will first restore that group. An upgrade will only occur if all existing groups are in good condition.\
+\
+These rules are common to all zones, but some zones can provide special bonuses as well, like friendly air patrols, an AWACS, supplies, or unlock new spawn points.\
+\
+The enemy AI will also launch attacks to recapture lost zones, air patrols to protect their airspace and supply deliveries to reinforce their defenses, so plan accordingly.\
+\
+Feel free to use the map to get an idea of what is happening, and use the F10 radio menu to get a report about any of the zones.\
+\
+As mentioned above, some spawns will be blocked until you capture the zone they are in. The name of the required zone can be found in the unit/group name on the spawn menu.\
+\
+Certain zones will have structures in them that are critical to their functioning. If all of these are destroyed, the zone gets disabled and will no longer provide any benefits. No side can capture it anymore and any remaining groups there will no longer be repairable.\
+\
+You can now call in support to help you in your conquest using credits. Some suport items will unlock a new menu where you can select a zone to target.\
+\
+You can earn credits in several ways:\
+-Some zones provide passive income.\
+-All kills will earn the player a certain amount of credits depending of unit killed. These however will not be instantly added to the coalition account. You will need to land at a friendly zone to claim the accumulated credits. Ejecting will also claim 25% of these credits.\
+-Airlifting supplies to friendly zones\
+\
+The red coalition will use credits earned from controlling certain zones to call in its own support.\
+\
+ATIS (Anapa): 143.000 \
+CTAF/ATC Comms: 305.000  \
+A2A Comms: 306.000 \
+A2G Comms: 307.000 \
+\
+Overlord: 251 AM (Active after conquering Krymsk and Radio Tower)\
+\
+Darkstar: 252 AM (Support menu, stays in the area for  ~1 hr)\
+CVN-71: \
+ATC: 243.5 MHz AM\
+TCN: 11X\
+ILS: 3\
+\
+CVN-73: \
+ATC: 245.5 MHz AM\
+TCN: 73X\
+ILS: 4\
+\
+CVN-74: \
+ATC: 255.5 MHz AM\
+TCN: 74X\
+ILS: 6\
+\
+Tarawa:\
+ATC: 265.5 MHz AM\
+TCN: 14X\
+\
+Shell 1-1 MPRS:\
+Freq: 256.0 MHz AM\
+TCN: 16X\
+\
+Shell 1-2 MPRS:\
+Freq: 257.0 MHz AM\
+TCN: 17X\
+\
+Texaco 1-1 KC135:\
+Freq: 258.0 MHz AM\
+TCN: 18X\
+\
+Texaco 1-2 KC135:\
+Freq: 259.0 MHz AM\
+TCN: 19X\
+\
+A/A Training AWACS: 253 AM",
+    ["DictKey_descriptionBlueTask_3"] = "Assist friendly forces in capturing all marked zones.\
+\
+Use radio F10 menu to get information about each zone and to call in support.",
+    ["DictKey_ActionText_44"] = "Server restart in 30 minutes. Mission state will be saved",
+    ["DictKey_ActionText_31"] = "",
+    ["DictKey_ActionText_74"] = "A/A Training Zone:\
+A/A Dummy Targets despawned south of training zone.",
+    ["DictKey_ActionText_33"] = "Hi",
+    ["DictKey_ActionRadioText_72"] = "Despawn A-A Dummies",
+    ["DictKey_ActionText_59"] = "",
+    ["DictKey_ActionRadioText_69"] = "",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_ActionRadioText_71"] = "Spawn A-A Dummies",
+    ["DictKey_ActionComment_32"] = "",
+    ["DictKey_ActionText_75"] = "",
+} -- end of dictionary
