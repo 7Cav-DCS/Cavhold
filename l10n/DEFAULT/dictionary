@@ -4,8 +4,7 @@ dictionary =
     ["DictKey_ActionText_35"] = "If you enjoy our server please join us on discord at: \
 https://discord.gg/7cav ",
     ["DictKey_ActionText_43"] = "Server restart in 15 minutes. Mission state will be saved",
-    ["DictKey_ActionText_76"] = "A/A Training Zone:\
-A/A Dummy Targets despawned south of training zone.",
+    ["DictKey_ActionText_28"] = "return false",
     ["DictKey_ActionText_73"] = "A/A Training Zone:\
 A/A Dummy Targets spawned south of training zone, 40 nm south of HOLD WP, Angels 15",
     ["DictKey_sortie_5"] = "",
@@ -13,8 +12,9 @@ A/A Dummy Targets spawned south of training zone, 40 nm south of HOLD WP, Angels
     ["DictKey_ActionText_19"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
     ["DictKey_ActionText_42"] = "Server restart in 5 minutes. Mission state will be saved",
-    ["DictKey_ActionText_28"] = "return false",
-    ["DictKey_ActionText_30"] = "Hi",
+    ["DictKey_ActionText_76"] = "A/A Training Zone:\
+A/A Dummy Targets despawned south of training zone.",
+    ["DictKey_ActionText_31"] = "",
     ["DictKey_descriptionText_1"] = "Welcome to the =7Cav= Tactical Realism Server\
 \
 The 7th Cavalry Gaming Regiment is currently looking for new pilots to join our ranks in DCS. We are a mix of experienced sim pilots and new players to aviation simulation. \
@@ -115,14 +115,14 @@ A/A Training AWACS: 253 AM",
 \
 Use radio F10 menu to get information about each zone and to call in support.",
     ["DictKey_ActionText_44"] = "Server restart in 30 minutes. Mission state will be saved",
-    ["DictKey_ActionText_31"] = "",
+    ["DictKey_ActionText_30"] = "Hi",
     ["DictKey_ActionText_74"] = "A/A Training Zone:\
 A/A Dummy Targets despawned south of training zone.",
     ["DictKey_ActionText_33"] = "Hi",
-    ["DictKey_ActionRadioText_72"] = "Despawn A-A Dummies",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_ActionText_59"] = "",
     ["DictKey_ActionRadioText_69"] = "",
-    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_ActionRadioText_72"] = "Despawn A-A Dummies",
     ["DictKey_ActionRadioText_71"] = "Spawn A-A Dummies",
     ["DictKey_ActionComment_32"] = "",
     ["DictKey_ActionText_75"] = "",
