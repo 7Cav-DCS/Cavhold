@@ -1,13 +1,13 @@
 mapResource = 
 {
     ["ResKey_Action_67"] = "airboss.lua",
-    ["ResKey_Action_64"] = "CaucasusBombingRange.lua",
+    ["ResKey_Action_68"] = "Hercules_Cargo.lua",
     ["ResKey_ImageBriefing_11"] = "foothold map1.jpg",
     ["ResKey_Action_21"] = "zoneSetup.lua",
     ["ResKey_Action_63"] = "Moose_10_05_21.lua",
     ["ResKey_Action_20"] = "zoneCommander.lua",
     ["ResKey_Action_26"] = "ding.ogg",
-    ["ResKey_Action_68"] = "Hercules_Cargo.lua",
+    ["ResKey_Action_64"] = "CaucasusBombingRange.lua",
     ["ResKey_Action_37"] = "beacon.ogg",
     ["ResKey_Action_6"] = "mist_4_5_107.lua",
     ["ResKey_Action_38"] = "beaconsilent.ogg",
