@@ -1,5 +1,3 @@
-
-
 -- Bomb Range Caucasus Bombing Range
 local bombTgtsCBR = {"BombTgt1", "BombTgt2", "BombTgt3", "BombTgt4"}
 local StrafeCBR = {"ST1"}
@@ -11,3 +9,7 @@ RangeCBR = RANGE:New("Caucasus Bombing Range (CBR)")
 	RangeCBR:AddStrafePit(StrafeCBR, 2000, 1000, nil, true, 20, 305)
 	RangeCBR:AddStrafePit(StrafeCBR2, 2000, 1000, nil, true, 20, 305)
 RangeCBR:Start()
+
+-- A/A Range Commands, draft snippet. Needs testing. 9.1.22
+local _aatgts = missionCommands.addSubMenuForCoalition(coalition.side.BLUE,"A/A Range","On the Range")
+
