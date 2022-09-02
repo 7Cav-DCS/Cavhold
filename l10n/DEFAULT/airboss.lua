@@ -2,7 +2,7 @@
 local AirbossWashington=AIRBOSS:New("CVN-73", "USS Washington")
 
 -- Need to check the syntax. Doc here shows some of it https://flightcontrol-master.github.io/MOOSE_DOCS_DEVELOP/Documentation/Ops.Airboss.html##(AIRBOSS).SetTACAN 9.1.22
-AirbossWashington:SetTACAN("73", "Y", "WSH")
+AirbossWashington:SetTACAN("73", "X", "WSH")
 AirbossWashington:SetLSORadio("234.000")
 AirbossWashington:SetMarshalRadio("235.000")
 AirbossWashington:SetICLS("11", "STN")
