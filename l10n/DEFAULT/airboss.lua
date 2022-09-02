@@ -5,7 +5,7 @@ local AirbossWashington=AIRBOSS:New("CVN-73", "USS Washington")
 AirbossWashington:SetTACAN("73", "X", "WSH")
 AirbossWashington:SetLSORadio("234.000")
 AirbossWashington:SetMarshalRadio("235.000")
-AirbossWashington:SetICLS("11", "STN")
+AirbossWashington:SetICLS("11", "WSH")
 
 -- Add recovery windows:
 -- Case I from 9 to 10 am. Carrier will turn into the wind 5 min before window opens and go at a speed so that wind over the deck is 25 knots.
