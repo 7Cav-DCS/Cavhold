@@ -10,6 +10,4 @@ RangeCBR = RANGE:New("Caucasus Bombing Range (CBR)")
 	RangeCBR:AddStrafePit(StrafeCBR2, 2000, 1000, nil, true, 20, 305)
 RangeCBR:Start()
 
--- A/A Range Commands, draft snippet. Needs testing. 9.1.22
-local _aatgts = missionCommands.addSubMenuForCoalition(coalition.side.BLUE,"A/A Range","On the Range")
 
