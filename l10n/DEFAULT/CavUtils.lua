@@ -23,6 +23,8 @@ for i = 1,CavUtils.N_SLOTS do
     CavUtils.AA_SARH_HOSTILE_NAMES[i] = CavUtils.AA_SARH_HOSTILE_PREFIX .. tostring(i)
 end
 
+
+
 -- Global Functions
 local function DestroyAAGroups(group_names, group_type_name)
     for index, grp_name in ipairs(group_names) do
@@ -80,11 +82,19 @@ end
 function CavUtils.delayRestart()
     flag_value = trigger.misc.getUserFlag('777')
     trigger.action.setUserFlag('777', flag_value + 1)
+    timeremaining = timer.getTime()
+    local out_msg = 'Server Restart paused.'
+                    .. timeremaining .. ' remaning until restart'
+    trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
     return 0
 end
 
 function CavUtils.resumeRestart()
     flag_value = trigger.misc.getUserFlag('777')
     trigger.action.setUserFlag('777', flag_value - 1)
+    timeremaining = timer.getTime()
+    local out_msg = 'Server Restart resumed.'
+                    .. timeremaining .. ' remaning until restart'
+    trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
     return 0
 end
