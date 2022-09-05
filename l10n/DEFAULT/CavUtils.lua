@@ -82,7 +82,7 @@ end
 function CavUtils.delayRestart()
     flag_value = trigger.misc.getUserFlag('777')
     trigger.action.setUserFlag('777', flag_value + 1)
-    timeremaining = (21600-timer.getTime())/60
+    timeremaining = ((21600-timer.getTime())/60)/60
     local out_msg = 'Server Restart paused.'
                     .. timeremaining .. ' hours remaning until restart'
     trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
@@ -92,7 +92,7 @@ end
 function CavUtils.resumeRestart()
     flag_value = trigger.misc.getUserFlag('777')
     trigger.action.setUserFlag('777', flag_value - 1)
-    timeremaining = (21600-timer.getTime())/60
+    timeremaining = ((21600-timer.getTime())/60)/60
     local out_msg = 'Server Restart resumed.'
                     .. timeremaining .. ' hours remaning until restart'
     trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
