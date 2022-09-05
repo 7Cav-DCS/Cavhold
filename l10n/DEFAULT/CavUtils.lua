@@ -77,16 +77,14 @@ function CavUtils.setDespawnSARHHostile()
     return 0
 end
 
-function CavUtils.CavUtils.delayRestart()
+function CavUtils.delayRestart()
     flag_value = trigger.misc.getUserFlag('777')
-
     trigger.action.setUserFlag('777', flag_value + 1)
     return 0
 end
 
-function CavUtils.CavUtils.resumeRestart()
+function CavUtils.resumeRestart()
     flag_value = trigger.misc.getUserFlag('777')
-
     trigger.action.setUserFlag('777', flag_value - 1)
     return 0
 end
