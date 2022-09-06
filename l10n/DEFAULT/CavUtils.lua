@@ -79,6 +79,15 @@ function CavUtils.setDespawnSARHHostile()
     return 0
 end
 
+function CavUtils.checkRestart()
+    timeremaining = ((21600-timer.getTime())/60)/60
+    local out_msg = 'Server Time remaining: '
+                    .. timeremaining .. ' hours until restart'
+    trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
+    return 0
+end
+
+
 function CavUtils.delayRestart()
     flag_value = trigger.misc.getUserFlag('777')
     trigger.action.setUserFlag('777', flag_value + 1)
