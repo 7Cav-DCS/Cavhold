@@ -209,8 +209,6 @@ ctld.dropOffZones = {
 	{ "dropzone11", "green", 2 },
 	{ "dropzone12", "green", 2 },
 	{ "dropzone13", "green", 2 },
-	{ "dropzone14", "green", 2 },
-	{ "dropzone15", "green", 2 },
 }
 
 
