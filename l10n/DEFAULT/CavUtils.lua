@@ -119,7 +119,7 @@ function CavUtils.AddAdminMenu(Group)
 end
 
 function CavUtils.AddAdminforAll()
-    MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', checkRestart)
-    MENU_MISSION_COMMAND:New('Pause Restart', 'Admin Utils', delayRestart)
-    MENU_MISSION_COMMAND:New('Resume Restart', 'Admin Utils', resumeRestart)
+    MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', CavUtils.checkRestart)
+    MENU_MISSION_COMMAND:New('Pause Restart', 'Admin Utils', CavUtils.delayRestart)
+    MENU_MISSION_COMMAND:New('Resume Restart', 'Admin Utils', CavUtils.resumeRestart)
 end

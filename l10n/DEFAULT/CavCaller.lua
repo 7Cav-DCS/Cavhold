@@ -1,4 +1,4 @@
--- Function to call in the various functions defined in CavUtils, without having to call the entirerity of CavUtils.
+-- Function to call in the various functions defined in CavUtils, without having to call the entirety of CavUtils.
 
 -- Disable player settings via MOOSE
 _SETTINGS:SetPlayerMenuOff()
