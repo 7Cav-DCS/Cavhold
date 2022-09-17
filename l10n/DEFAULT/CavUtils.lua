@@ -107,3 +107,19 @@ function CavUtils.resumeRestart()
     trigger.action.outTextForCoalition(coalition.side.BLUE, out_msg, 10)
     return 0
 end
+
+function CavUtils.AddAdminMenu(Group)
+    -- Admin menu creation using MOOSE framework.
+    --MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', checkRestart)
+    MENU_GROUP:New( Group, 'Admin Utils', checkRestart)
+    -- MENU_MISSION_COMMAND:New('Pause Restart', 'Admin Utils', delayRestart)
+    MENU_GROUP:New( Group, 'Admin Utils', delayRestart)
+    --MENU_MISSION_COMMAND:New('Resume Restart', 'Admin Utils', resumeRestart)
+    MENU_GROUP:New( Group, 'Admin Utils', resumeRestart)
+end
+
+function CavUtils.AddAdminforAll()
+    MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', CavUtils.checkRestart)
+    MENU_MISSION_COMMAND:New('Pause Restart', 'Admin Utils', CavUtils.delayRestart)
+    MENU_MISSION_COMMAND:New('Resume Restart', 'Admin Utils', CavUtils.resumeRestart)
+end
