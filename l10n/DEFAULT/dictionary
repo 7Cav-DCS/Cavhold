@@ -67,7 +67,6 @@ You can earn credits in several ways:\
 \
 The red coalition will use credits earned from controlling certain zones to call in its own support.\
 \
-ATIS (Anapa): 143.000 \
 CTAF/ATC Comms: 305.000  \
 A2A Comms: 306.000 \
 A2G Comms: 307.000 \
@@ -98,7 +97,7 @@ Shell 1-1 MPRS:\
 Freq: 256.0 MHz AM\
 TCN: 16X\
 \
-Shell 1-2 MPRS:\
+Shell 2-1 MPRS:\
 Freq: 257.0 MHz AM\
 TCN: 17X\
 \
@@ -106,7 +105,7 @@ Texaco 1-1 KC135:\
 Freq: 258.0 MHz AM\
 TCN: 18X\
 \
-Texaco 1-2 KC135:\
+Texaco 2-1 KC135:\
 Freq: 259.0 MHz AM\
 TCN: 19X\
 \
