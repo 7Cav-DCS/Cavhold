@@ -108,6 +108,8 @@ function CavUtils.resumeRestart()
     return 0
 end
 
+
+-- Add Admin Menu function
 function CavUtils.AddAdminMenu(Group)
     -- Admin menu creation using MOOSE framework.
     --MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', checkRestart)
@@ -118,8 +120,69 @@ function CavUtils.AddAdminMenu(Group)
     MENU_GROUP:New( Group, 'Admin Utils', resumeRestart)
 end
 
+-- Debug menu, add admin for all units.
 function CavUtils.AddAdminforAll()
     MENU_MISSION_COMMAND:New('Check Restart', 'Admin Utils', CavUtils.checkRestart)
     MENU_MISSION_COMMAND:New('Pause Restart', 'Admin Utils', CavUtils.delayRestart)
     MENU_MISSION_COMMAND:New('Resume Restart', 'Admin Utils', CavUtils.resumeRestart)
 end
+
+-- Waypoint Addition Functions
+function getplayerwp(Group)
+    if Group:isExist() and Group:getPlayerName() ~= nil then
+        GrpID=plyr:getID()
+        GrpRoute = ACT_ROUTE:GetCurrentState(Group)
+
+
+    end
+
+end
+
+
+-- SRC: https://forum.dcs.world/topic/160041-settingchangingupdating-waypoints-in-a-mission-while-its-running-using-lua/
+
+ function addWaypoints(route, groupName)
+   local wp = {}
+   wp.speed = 100
+   wp.x = route.x
+   wp.y = route.y
+   wp.type = 'Turning Point'
+   wp.ETA_locked = false
+   wp.ETA = 100
+   wp.alt = 500
+   wp.alt_type = "BARO"
+   wp.speed_locked = true
+   wp.action = "Fly Over Point"
+   wp.airdromeId = nil
+   wp.helipadId = nil
+
+   local wp1 = {}
+   wp1.speed = 500
+   wp1.x = route.x
+   wp1.y = route.y
+   wp1.type = 'Turning Point'
+   wp1.ETA_locked = false
+   wp1.ETA = 100
+   wp1.alt = 500
+   wp1.alt_type = "BARO"
+   wp1.speed_locked = true
+   wp1.action = "Fly Over Point"
+   wp1.airdromeId = nil
+   wp1.helipadId = nil
+
+   local newRoute = {}
+   newRoute[1]=wp1
+   --newRoute[#newRoute+1]=wp1
+
+   local newTask = {
+       id = 'Mission',
+       params = {
+           route = {
+               points = newRoute,
+           },
+       },
+   }
+   local group = Group.getByName(groupName)
+   local ctrl = group:getController()
+   ctrl:pushTask(newTask)
+ end
