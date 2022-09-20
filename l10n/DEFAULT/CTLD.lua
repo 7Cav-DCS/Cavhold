@@ -239,11 +239,18 @@ ctld.transportPilotNames = {
     "Anapa Chinook-2",
     "Anapa Chinook-3",
     "Anapa Chinook-4",
-    "Anapa UH-60L-1",
-    "Anapa UH-60L-2",
 
-    "Anapa UH-60L-3",
-    "Anapa UH-60L-4",
+
+    "Anapa UH-60L-1-1",
+    "Anapa UH-60L-1-2",
+    "Anapa UH-60L-1-3",
+    "Anapa UH-60L-1-4",
+
+    "Krymsk UH-60L-1-1",
+    "Krymsk UH-60L-1-2",
+    "Krymsk UH-60L-1-3",
+    "Krymsk UH-60L-1-4",
+
     "Hercules Anapa-1",
     "Hercules Anapa-2",
     "Hercules Anapa-3",
