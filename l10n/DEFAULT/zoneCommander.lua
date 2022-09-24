@@ -2708,7 +2708,7 @@ do
 	LogisticCommander.allowedTypes['SA342M'] = true
 	LogisticCommander.allowedTypes['SA342Minigun'] = true
 	LogisticCommander.allowedTypes['UH-60L'] = true
-	LogisticCommander.allowedTypes['AH-64D_BLK_II'] = false
+	LogisticCommander.allowedTypes['AH-64D_BLK_II'] = true
 	LogisticCommander.allowedTypes['UH-1H'] = true
 	LogisticCommander.allowedTypes['Mi-8MT'] = true
 	LogisticCommander.allowedTypes['Hercules'] = true
