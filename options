@@ -238,6 +238,24 @@ options =
             ["AH64AutoHandover"] = true,
             ["AH64IhadssMonocleVisible"] = true,
         }, -- end of ["AH-64D_BLK_II"]
+        ["AV8BNA"] = 
+        {
+            ["INS_Alignment"] = 0,
+            ["INS_GYROHasNAV"] = false,
+            ["USE_MPCD_EXPORT"] = false,
+            ["CPLocalList"] = "default",
+            ["USE_REAL_TDC"] = false,
+            ["MPCD_EXPORT"] = false,
+        }, -- end of ["AV8BNA"]
+        ["Bf-109K-4"] = 
+        {
+            ["cameraOrigin"] = 0,
+            ["aileronTrim"] = 0,
+            ["assistance"] = 100,
+            ["CPLocalList"] = "default",
+            ["rudderTrim"] = 0,
+            ["autoRudder"] = false,
+        }, -- end of ["Bf-109K-4"]
         ["LeapMotion"] = 
         {
             ["handUseThrottle"] = false,
@@ -272,14 +290,18 @@ options =
             ["canopyTint"] = 0,
             ["mfdReflections"] = 1,
         }, -- end of ["F-16C"]
-        ["Ka-50"] = 
+        ["FC3"] = 
         {
-            ["Ka50TrimmingMethod"] = 0,
-            ["Ka50RudderTrimmer"] = false,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "english",
-            ["helmetCircleDisplacement"] = 10.5,
-        }, -- end of ["Ka-50"]
+            ["CPLocalList_Su-25"] = "default",
+            ["CPLocalList_Su-27"] = "default",
+            ["CPLocalList_A-10A"] = "default",
+            ["CPLocalList_Su-33"] = "default",
+            ["CPLocalList_MiG-29S"] = "default",
+            ["CPLocalList_MiG-29A"] = "default",
+            ["CPLocalList_J-11A"] = "default",
+            ["CPLocalList_MiG-29G"] = "default",
+            ["CPLocalList_F-15C"] = "default",
+        }, -- end of ["FC3"]
         ["UH-60L"] = 
         {
             ["UNSPRUNG_CYCLIC"] = false,
@@ -331,43 +353,31 @@ options =
             ["shoulderJointY_Right"] = -23,
             ["yawOffsetGlove_Right"] = 0,
         }, -- end of ["CaptoGlove"]
-        ["Su-25T"] = 
-        {
-            ["CPLocalList"] = "default",
-        }, -- end of ["Su-25T"]
-        ["FC3"] = 
-        {
-            ["CPLocalList_Su-25"] = "default",
-            ["CPLocalList_Su-27"] = "default",
-            ["CPLocalList_A-10A"] = "default",
-            ["CPLocalList_Su-33"] = "default",
-            ["CPLocalList_MiG-29S"] = "default",
-            ["CPLocalList_MiG-29A"] = "default",
-            ["CPLocalList_J-11A"] = "default",
-            ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_F-15C"] = "default",
-        }, -- end of ["FC3"]
-        ["F-14"] = 
-        {
-            ["JESTER_HeadMenu"] = true,
-            ["FFB_TRIM"] = false,
-            ["JESTER_LandingCallouts"] = true,
-            ["AB_GATE"] = false,
-            ["JESTER_Camera"] = true,
-            ["TID_A2G"] = false,
-            ["WEAP_OFF_GUN"] = false,
-            ["WEAP_UP_SPPH"] = false,
-            ["SWEEP_HANDLE_RAISED_COND"] = false,
-            ["JESTER_SwitchPDSTTToPSTT"] = false,
-            ["EXT_LIGHT_CATAPULT"] = true,
-            ["RadioMenuPttOptions"] = 0,
-        }, -- end of ["F-14"]
         ["TF-51D"] = 
         {
             ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
+        ["F-86F"] = 
+        {
+            ["landSeatAdjustF86"] = true,
+            ["aiHelper"] = false,
+            ["CPLocalList"] = "default",
+            ["NoseWheelSteeringSimpleBehaviourF86"] = true,
+            ["gunCamera"] = 0,
+        }, -- end of ["F-86F"]
+        ["Su-25T"] = 
+        {
+            ["CPLocalList"] = "default",
+        }, -- end of ["Su-25T"]
+        ["MiG-15bis"] = 
+        {
+            ["autoLeanToAimMiG15"] = true,
+            ["CPLocalList"] = "default",
+            ["gunCamera"] = 0,
+            ["aiHelper"] = false,
+        }, -- end of ["MiG-15bis"]
         ["Mi-24P"] = 
         {
             ["Mi24StickTrimMethod"] = 0,
@@ -386,6 +396,38 @@ options =
             ["Mi24AutoHandover"] = true,
             ["Mi24PedalsInputSensitivity"] = 13,
         }, -- end of ["Mi-24P"]
+        ["F-14"] = 
+        {
+            ["JESTER_HeadMenu"] = true,
+            ["FFB_TRIM"] = false,
+            ["JESTER_LandingCallouts"] = true,
+            ["AB_GATE"] = false,
+            ["JESTER_Camera"] = true,
+            ["TID_A2G"] = false,
+            ["WEAP_OFF_GUN"] = false,
+            ["WEAP_UP_SPPH"] = false,
+            ["SWEEP_HANDLE_RAISED_COND"] = false,
+            ["JESTER_SwitchPDSTTToPSTT"] = false,
+            ["EXT_LIGHT_CATAPULT"] = true,
+            ["RadioMenuPttOptions"] = 0,
+        }, -- end of ["F-14"]
+        ["UH-1H"] = 
+        {
+            ["UHRudderTrimmer"] = false,
+            ["autoPilot"] = true,
+            ["UH1HCockpitShake"] = 50,
+            ["CPLocalList"] = "default",
+            ["weapTooltips"] = true,
+            ["UHTrimmingMethod"] = 0,
+        }, -- end of ["UH-1H"]
+        ["Ka-50"] = 
+        {
+            ["Ka50TrimmingMethod"] = 0,
+            ["Ka50RudderTrimmer"] = false,
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "english",
+            ["helmetCircleDisplacement"] = 10.5,
+        }, -- end of ["Ka-50"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
